@@ -1,0 +1,32 @@
+<html lang="en">
+    <link rel="shortcut icon" href="assets/img/logooo.png">
+<head>
+    <link rel="shortcut icon" href="images/logosilogo-removebg-preview.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>შეკვეთა</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>შეკვეთა</h2>
+                <hr>
+            </div>
+            <h5>კასეტა და ფლეიერი</h5> <img class="player" src="assets/img/both.png" alt=""> 
+    <input type="hidden" name="access_key" value="d105c69b-342d-40bb-abc0-4329350cb9de">
+            <input type="text" name="name" placeholder="სახელი და გვარი" class="contact-inputs" required>
+            <input type="text" name="name" placeholder="ტელეფონის ნომერი" class="contact-inputs" required>
+          
+            <input type="text" name="email" placeholder="მეილი" class="contact-inputs" required>
+            <textarea name="message" placeholder="ფლეილისთის ლინკი" class="contact-inputs" ></textarea>
+            <button type="submit">დადასტურება<img src=""></button>
+        </form>
+    </div>
+    <script async
+    src="https://pay.google.com/gp/p/js/pay.js"
+    onload="onGooglePayLoaded()"></script>
+</body>
+</html>
